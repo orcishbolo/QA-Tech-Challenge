@@ -1,0 +1,20 @@
+{
+  "name": "amaysim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "cy:run:local:": "npx cypress run --spec \"cypress/e2e/scripts/*.cy.js\"",
+    "cy:runToDashboard:": "npx cypress run --spec \"cypress/e2e/scripts/*.cy.js\" --record --key 282b9e91-25a3-4755-8ec6-105dcc0738bb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orcishbolo/amaysim.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orcishbolo/amaysim/issues"
+  },
+  "homepage": "https://github.com/orcishbolo/amaysim#readme"
+}

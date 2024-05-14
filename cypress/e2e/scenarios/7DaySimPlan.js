@@ -16,12 +16,12 @@ class simPlan {
     //check h1 7 day sim plans
     cy.get('.breadcrumb').should('be.visible').contains('7 Day SIM Plans')
     cy.get('h1').should('have.text', '7 Day SIM Plans')
-    cy.get('.product-card').should('be.visible')
+    cy.get('.product-card').realHover().should('be.visible')
     cy.get('.product-card-top').contains('10GB')
     cy.get('.product-card-top--right > .font-heading').should('have.text', '$10')
     cy.get('.product-card-bottom').should('be.visible')
     cy.get('.product-card-inclusions > li').should('have.length', 4)
-    cy.get('.product-card-ctas > .btn').should('be.visible').click()
+    cy.get('.product-card-ctas > .btn').should('be.visible').realHover().click()
     }
 
     Cart7DaysSimPlan(){
