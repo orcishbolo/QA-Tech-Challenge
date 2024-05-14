@@ -5,7 +5,7 @@ class simPlan {
     Click7DaysSimPlan(){
     cy.visit('');
     homeObjects.homePage.imgLogo().should('be.visible')
-    homeObjects.homePage.lnkSimPlans().realHover()
+    homeObjects.homePage.lnkSimPlan().realHover()
     cy.contains('7 day SIM plans').click()
     homeObjects.homePage.imgBanner().should('be.visible')
     }
