@@ -9,4 +9,4 @@ jobs:
       - name: Cypress.io
         uses: cypress-io/github-action@v6.5.0
         with:
-          spec: cypress/e2e/scripts/*.cy.js
+          spec: e2e/scripts/*.cy.js
