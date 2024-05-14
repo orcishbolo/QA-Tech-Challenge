@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/orcishbolo/amaysim/issues"
   },
-  "homepage": "https://github.com/orcishbolo/amaysim#readme"
+  "homepage": "https://github.com/orcishbolo/amaysim#readme",
+  "devDependencies": {
+    "start-server-and-test": "^2.0.3"
+  }
 }
