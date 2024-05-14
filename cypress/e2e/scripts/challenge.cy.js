@@ -1,11 +1,10 @@
-
 /// <reference types="cypress" />
 /// <reference types="cypress-iframe" />
 import simPlan from "../scenarios/7DaySimPlan"
 
 
-describe('template spec', () => {
-  it('passes', () => {
+describe('QA Tech Challange', () => {
+  it('7DaysSimPlan', () => {
     simPlan.Click7DaysSimPlan()
     simPlan.Landing7DaysSimPlanPage()
     simPlan.Cart7DaysSimPlan()
