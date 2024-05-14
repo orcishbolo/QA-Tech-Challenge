@@ -9,15 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/orcishbolo/amaysim.git"
+    "url": "git+https://github.com/orcishbolo/QA-Tech-Challenge.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/orcishbolo/amaysim/issues"
+    "url": "https://github.com/orcishbolo/QA-Tech-Challenge/issues"
   },
-  "homepage": "https://github.com/orcishbolo/amaysim#readme",
+  "homepage": "https://github.com/orcishbolo/QA-Tech-Challenge#readme",
   "devDependencies": {
+    "cypress": "^13.9.0",
     "start-server-and-test": "^2.0.3"
   }
 }
